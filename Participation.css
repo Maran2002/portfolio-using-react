@@ -1,0 +1,44 @@
+.myParticipations{
+    color: #112D4E;
+    background-color: #DBE2EF;
+    padding-top: 5rem;
+}
+.ParBox{
+    max-width: 25rem;
+    min-width: 18rem;;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+.ParBoxHead{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+}
+.ParBox img{
+    width: 25rem;
+}
+@media (max-width: 450px) {
+    .ParBox img{
+        width: 20rem;
+    }
+}
+@media (max-width: 380px) {
+    .ParBox img{
+        width: 17rem;
+    }
+    .ParBoxHead{
+        padding: 4rem 0rem;
+    }
+}
+@media (max-width: 325px) {
+    .ParBox img{
+        width: 13rem;
+    }
+    .ParBox{
+        padding: 0;
+    }
+}

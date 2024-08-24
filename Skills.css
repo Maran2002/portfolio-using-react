@@ -1,0 +1,27 @@
+.skills{
+        color: #112D4E;
+        background-color: #DBE2EF;
+        padding-top: 5rem;
+}
+.skills-head{
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+}
+.skill-box{
+    max-width: 23rem;
+    min-width: 15rem;
+    border: 2px solid #112D4E;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem
+}
+.skill-boxHead{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill-icon{
+    max-width: 6rem;
+}

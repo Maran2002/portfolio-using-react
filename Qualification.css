@@ -1,0 +1,54 @@
+.qualificationTag{
+    margin: 0;
+    padding: 4rem 3rem;
+    background-color: #DBE2EF
+}
+.qualificationTag h1{
+    color: #112D4E;
+    margin: 0;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 3rem;
+}
+.QuaHeader{
+    color: #112D4E;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom:2px solid #112D4E;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+.QuaText{
+    color: #112D4E;
+    margin: 0;
+    padding: 1rem;
+    text-align: justify;
+}
+.QuaBox{
+    max-width: 23rem;
+    min-width: 18rem;
+    border: 2px solid #112D4E;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.QuaBoxHead{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+}
+
+@media (max-width: 1025px) {
+    .qualificationTag{
+        padding: 4rem 1rem;
+    }
+}
+@media (max-width: 380px) {
+    .QuaBox{
+        margin: 2rem 0rem;
+    }
+    .QuaBoxHead{
+        padding: 2rem 0rem;
+    }
+}
